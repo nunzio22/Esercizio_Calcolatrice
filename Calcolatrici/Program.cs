@@ -6,7 +6,7 @@ namespace Calcolatrici
 {
     class Program
     {
-        enum Operazioni
+        enum Operazione
         {
             provaEnum,
             provaEnum2
@@ -36,7 +36,8 @@ namespace Calcolatrici
                 n2 = Inserimento.insertN();
                 if (Op == 5)
                 {
-                    Operazioni.resto(n1, n2);
+                    Operazioni.resto(n1,
+                                     n2);
                 }
                 else
                 {
