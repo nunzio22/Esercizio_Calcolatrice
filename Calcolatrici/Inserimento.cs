@@ -48,7 +48,6 @@ namespace MyInserimento
             {
                 Console.WriteLine("Caro utente inserisci il numero e premi invio");
                 temp = Console.ReadLine();
-                //succes = Int32.TryParse(concatenazione, out num2);  volendo si puo usare questa istruzione inserendo 
                 if (!Int32.TryParse(temp, out num1))
                     Console.WriteLine("Il valore inserito non è corretto quindi rinserisci");
             } while (!Int32.TryParse(temp, out num1));
