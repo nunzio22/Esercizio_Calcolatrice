@@ -94,8 +94,9 @@ namespace Calcolatrici
                 Console.WriteLine("Vuoi vare altre operazioni?");
                 risp = Console.ReadLine();
                 //se risponde di si il codice continua se risponde in altro modo tramite il brek esce dal do whille ponendo fine al esecuzione
-                if (!(risp == "Si") || !(risp == "si"))
-                    break;
+                if ((risp == "Si") || (risp == "si"))
+                    ;
+                    else break;
                 Console.WriteLine("Vuoi tenere in memoria il risultato?");
                 risp = Console.ReadLine();
             } while (true);
