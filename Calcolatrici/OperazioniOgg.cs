@@ -17,10 +17,10 @@ namespace Calcolatrici
             get
             {
                 int rest = 0;
-                if (n2 == 0)
+                if (n2 == 0||n2>n1)
                     rest = n2 % n1;
                 else rest = n1 % n2;
-                return ris;
+                return rest;
             }
         }
         public int ris
@@ -45,11 +45,11 @@ namespace Calcolatrici
                     {
                         ris = divisione(n1, n2);
                     }
-                else if (op == 5)
-                {
-                    ris = divisione(n1, n2);
-                }
-                return ris;
+                    else if (op == 5)
+                    {
+                        ris = divisione(n1, n2);
+                    }
+                    return ris;
             }
         }
 
@@ -77,7 +77,7 @@ namespace Calcolatrici
         private int divisione(int n1, int n2)
         {
             int ris = 0;
-            if (n2 == 0)
+            if (n2 == 0||n2>n1)
                 ris = n2 / n1;
             else ris = n1 / n2;
             return ris;

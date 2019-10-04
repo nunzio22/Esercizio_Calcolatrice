@@ -23,16 +23,17 @@ namespace MyInserimento
                                     "3 moltiplicazione \n"+
                                     "4 divisione \n"+
                                     "5 divisione con resto");
+                Console.WriteLine("Selezionare il numero del operazione che si desidera fare : ");
                 tem = Console.ReadLine();
-                if (!Int32.TryParse(tem, out op))
-                    Console.WriteLine("Il valore inserito non è corretto quindi rinserisci");
+                if (!Int32.TryParse(tem, out op));
+                //controllo se la varibile op è tra le possibili scelte
                 if (op==1 || op==2||op==3||op==4||op==5)
                 {
                    controllo=false;
                 }
                 else 
                 {
-                    Console.WriteLine("Hai sbagliato capra");
+                    Console.WriteLine("Il valore inserito non è corretto quindi rinserisci ");
                 }
             } while (controllo);
             
