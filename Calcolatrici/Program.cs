@@ -6,6 +6,11 @@ namespace Calcolatrici
 {
     class Program
     {
+        enum Operazioni
+        {
+            provaEnum,
+            provaEnum2
+        }
         static void Main(string[] args)
         {
             int Op;
@@ -13,9 +18,10 @@ namespace Calcolatrici
             int n2;
             int ris=0;
             string risp="";
-            Console.WriteLine("Benvenuti in Umana Caluletor scegliere l'operazione che si vuole fare");
+            Console.WriteLine("Benvenuti in Umana Calculetor ");
             do
             {
+                Console.WriteLine("scegli l'operazione che si vuole effetuare");
                 Op = Inserimento.InsertOp();
                 Console.WriteLine("L'operazione selezionata è la N:" + Op);
                 Console.WriteLine(Op);
