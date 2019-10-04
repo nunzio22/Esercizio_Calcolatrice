@@ -9,9 +9,7 @@ namespace Calcolatrici
 
     class Operazione
     {
-        //numero uno sul quale verrà effetuata l'operazione
         public int n1;
-
         public int n2;
         public int op;
         public int rest
@@ -47,6 +45,10 @@ namespace Calcolatrici
                     {
                         ris = divisione(n1, n2);
                     }
+                else if (op == 5)
+                {
+                    ris = divisione(n1, n2);
+                }
                 return ris;
             }
         }
