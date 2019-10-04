@@ -98,8 +98,6 @@ namespace Calcolatrici
                     break;
                 Console.WriteLine("Vuoi tenere in memoria il risultato?");
                 risp = Console.ReadLine();
-
-
             } while (true);
         }
 
