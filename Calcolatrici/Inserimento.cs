@@ -47,7 +47,7 @@ namespace MyInserimento
             int num1;
             do
             {
-                Console.WriteLine("Caro utente inserisci il numero e premi invio");
+                Console.WriteLine("Inserisci il numero e premi invio");
                 temp = Console.ReadLine();
                 if (!Int32.TryParse(temp, out num1))
                     Console.WriteLine("Il valore inserito non è corretto quindi rinserisci");
