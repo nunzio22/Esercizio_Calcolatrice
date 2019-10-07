@@ -18,10 +18,10 @@ namespace MyInserimento
             {
 
                 Console.WriteLine("Puoi scegliere una delle seguenti operezioni scrivendo uno dei vari metodi indicati \n" +
-                                    "1 + somma \n"+
-                                    "2 - sotrazione \n"+
-                                    "3 * moltiplicazione \n"+
-                                    "4 / divisione \n"+
+                                    "1 + somma "+ System.Environment.NewLine+
+                                    "2 - sotrazione " + System.Environment.NewLine+
+                                    "3 * moltiplicazione " + System.Environment.NewLine+
+                                    "4 / divisione " + System.Environment.NewLine+
                                     "5 % divisione con resto ");
                 Console.WriteLine("Selezionare il numero del operazione che si desidera fare : ");
                 tem = Console.ReadLine();
