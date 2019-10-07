@@ -83,7 +83,10 @@ namespace Calcolatrici
                 //caso speciale se si sceglie la quinta opzione ovvero divisione con resto il codice mostrerà il risultato dentro la variabile ris del oggetto ed il resto dentro la sua varibiale del oggetto
                 if (ris.op == 5)
                 {
-                    Console.WriteLine("Il risultato è:" + ris.ris+ System.Environment.NewLine+" Con il resto di : " +ris.rest);
+                    Console.WriteLine("Il risultato è:" 
+                        + ris.ris+ System.Environment.NewLine
+                        +" Con il resto di : " 
+                        +ris.rest);
                 }
                 else
                 {

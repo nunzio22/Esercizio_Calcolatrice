@@ -26,7 +26,6 @@ namespace MyInserimento
                 Console.WriteLine("Selezionare il numero del operazione che si desidera fare : ");
                 tem = Console.ReadLine();
                 tem = tem.ToUpper();
-                //if (!Int32.TryParse(tem, out op));
                 //controllo se la varibile op è tra le possibili scelte ho fatto questa serie di or perchè cosi lutente puo anche srcrivere in vari metodi
                 if (tem == "1" || tem == "+"|| tem == "SOMMA")
                 {
