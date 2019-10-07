@@ -25,29 +25,30 @@ namespace MyInserimento
                                     "5 % divisione con resto ");
                 Console.WriteLine("Selezionare il numero del operazione che si desidera fare : ");
                 tem = Console.ReadLine();
+                tem = tem.ToUpper();
                 //if (!Int32.TryParse(tem, out op));
                 //controllo se la varibile op è tra le possibili scelte ho fatto questa serie di or perchè cosi lutente puo anche srcrivere in vari metodi
-                if (tem == "1" || tem == "+"|| tem == "Somma"|| tem == "somma")
+                if (tem == "1" || tem == "+"|| tem == "SOMMA")
                 {
                     op = 1;
                    controllo=false;
                 }
-                else if (tem == "2" || tem == "-" || tem == "Sotrazione" || tem == "sotrazione")
+                else if (tem == "2" || tem == "-" || tem == "SOTRAZIONE" )
                 {
                     op = 2;
                     controllo = false;
                 }
-                else if (tem == "3" || tem == "*" || tem == "Moltiplicazione" || tem == "moltiplicazione")
+                else if (tem == "3" || tem == "*" || tem == "MOLTIPLICAZIONE" )
                 {
                     op = 3;
                     controllo = false;
                 }
-                else if (tem == "4" || tem == "/" || tem == "Divisione" || tem == "divisione")
+                else if (tem == "4" || tem == "/" || tem == "DIVISIONE" )
                 {
                     op = 4;
                     controllo = false;
                 }
-                else if (tem == "5" || tem == "%" || tem == "divisione con resto" || tem == "resto")
+                else if (tem == "5" || tem == "%" || tem == "DIVISIONE CON RESTO" )
                 {
                     op = 5;
                     controllo = false;

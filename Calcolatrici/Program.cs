@@ -61,6 +61,7 @@ namespace Calcolatrici
             Operazione ris = new Operazione();
             //creazione variabile controllo che mi è neccesaria per le risposte del utete alla fine del operazione
             string risp = "";
+            int temp = 0;
             Console.WriteLine("Benvenuti in Umana Calculetor ");
             do
             {
@@ -69,9 +70,9 @@ namespace Calcolatrici
                 ris.op = Inserimento.InsertOp();
                 Console.WriteLine("L'operazione selezionata è la N:" + ris.op);
                 //controllo se l'utente desidera recuperare il risultato della vecchia operazione è usarlo come primo operando
-                if (risp == "Si" || risp == "si")
-                {
-                    ris.n1 = ris.ris;
+                if (risp == "SI")
+                { 
+                    ris.n1 = temp;
                 }
                 else
                 {
@@ -88,17 +89,17 @@ namespace Calcolatrici
                 {
                     // stampa il risultato come spigato prima 
                     Console.WriteLine("Il risultato è:" + ris.ris);
-                    Console.ReadLine();
                 }
+                temp = ris.ris;
                 //si chiede al utente se desidera fare altre operazioni 
                 Console.WriteLine("Vuoi vare altre operazioni?");
-                risp = Console.ReadLine();
+                risp = Console.ReadLine().ToUpper();
                 //se risponde di si il codice continua se risponde in altro modo tramite il brek esce dal do whille ponendo fine al esecuzione
-                if ((risp == "Si") || (risp == "si"))
+                if ((risp == "SI") )
                     ;
                     else break;
                 Console.WriteLine("Vuoi tenere in memoria il risultato?");
-                risp = Console.ReadLine();
+                risp = Console.ReadLine().ToUpper();
             } while (true);
         }
 

@@ -9,9 +9,9 @@ namespace Calcolatrici
 
     class Operazione
     {
-        public int n1;
-        public int n2;
-        public int op;
+        public int n1 { get; set; }
+        public int n2 { get; set; }
+        public int op { get; set; }
         public int rest
         {
             get
