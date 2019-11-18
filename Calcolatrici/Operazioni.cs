@@ -61,7 +61,7 @@ namespace MyOperazioni
         {
             int ris = 0;
             if (n2 == 0)
-                ris = n2 / n1;
+                Console.WriteLine("L'operazione è impossibile quindi il risultato sarà settato a 0");
             else ris = n1 / n2;
             return ris;
         }

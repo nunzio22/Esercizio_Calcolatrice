@@ -9,3 +9,10 @@ C:\Users\CORSO 46\Documents\GitHub\Esercizio_Calcolatrice\Calcolatrici\obj\Debug
 C:\Users\CORSO 46\Documents\GitHub\Esercizio_Calcolatrice\Calcolatrici\obj\Debug\Calcolatrici.csproj.CoreCompileInputs.cache
 C:\Users\CORSO 46\Documents\GitHub\Esercizio_Calcolatrice\Calcolatrici\obj\Debug\Calcolatrici.exe
 C:\Users\CORSO 46\Documents\GitHub\Esercizio_Calcolatrice\Calcolatrici\obj\Debug\Calcolatrici.pdb
+C:\Users\sava\Documents\GitHub\Esercizio_Calcolatrice\Calcolatrici\bin\Debug\Calcolatrici.exe.config
+C:\Users\sava\Documents\GitHub\Esercizio_Calcolatrice\Calcolatrici\bin\Debug\Calcolatrici.exe
+C:\Users\sava\Documents\GitHub\Esercizio_Calcolatrice\Calcolatrici\bin\Debug\Calcolatrici.pdb
+C:\Users\sava\Documents\GitHub\Esercizio_Calcolatrice\Calcolatrici\obj\Debug\Calcolatrici.csprojAssemblyReference.cache
+C:\Users\sava\Documents\GitHub\Esercizio_Calcolatrice\Calcolatrici\obj\Debug\Calcolatrici.csproj.CoreCompileInputs.cache
+C:\Users\sava\Documents\GitHub\Esercizio_Calcolatrice\Calcolatrici\obj\Debug\Calcolatrici.exe
+C:\Users\sava\Documents\GitHub\Esercizio_Calcolatrice\Calcolatrici\obj\Debug\Calcolatrici.pdb
