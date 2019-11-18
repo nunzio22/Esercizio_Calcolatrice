@@ -33,7 +33,8 @@ namespace MyOperazioni
             {
                 ris = divisione(num1,num2);
                 controllo = false;
-            }
+                }
+                
 
         } while (controllo);
             return ris;
@@ -67,7 +68,13 @@ namespace MyOperazioni
         }
         public static void resto(int n1,int n2)
         {
-            Console.WriteLine(" Il risultato è:" + n1 / n2+"\n");
+            int ris = 0;
+            ris = divisione(n1, n2);
+
+            Console.WriteLine(" Il risultato è: {0} " , ris);
+            if (n2==0)
+                Console.WriteLine("con il resto di:{0}",n1);
+            else
             Console.WriteLine(" con il resto di:" + n1 % n2);
             Console.ReadLine();
             return;
