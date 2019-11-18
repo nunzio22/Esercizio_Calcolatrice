@@ -17,6 +17,7 @@ namespace Calcolatrici
             int n1;
             int n2;
             int ris=0;
+            bool fine = true;
             string risp="";
             Console.WriteLine("Benvenuti in Umana Calculetor ");
             do
@@ -47,15 +48,13 @@ namespace Calcolatrici
                 Console.WriteLine("Vuoi vare altre operazioni?");
                 risp = Console.ReadLine();
 
-                if (risp == "Si" || risp == "si")
-                    ;
-                else
-                    break;
+                if (!(risp == "Si" || risp == "si"))
+                    fine=false;
                 Console.WriteLine("Vuoi tenere in memoria il risultato?");
                 risp = Console.ReadLine();
 
 
-            } while (true);
+            } while (fine);
 
 
 
